@@ -40,6 +40,7 @@ footer{
     width: 100%;
 }
 
+
 li{
     display: flex;
     flex-direction: column;
@@ -81,5 +82,26 @@ h1{
 
 
 .botao{
+    text-decoration-style: none;
     border: 00.1rem solid black;
+    margin: 1rem 0rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
 }
+
+.imgperfil{
+    width: 15rem;
+    height: 15rem;
+    margin: 2rem 0rem;
+    border-radius: 10rem;
+}
+
+mark{
+    font-weight: bold;
+    background-color: rgba(0,0,0,0);
+}
+
+.dados{
+    margin: 2rem 0rem;
+}
+

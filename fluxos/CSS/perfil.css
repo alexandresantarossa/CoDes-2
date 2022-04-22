@@ -21,6 +21,7 @@ header{
     border-bottom: 0.1rem solid black;
     height: 10%;
     width: 100%;
+    min-height: 4rem;
 }
 
 main{
@@ -38,6 +39,7 @@ footer{
     border-top: 00.1rem solid black;
     height: 10%;
     width: 100%;
+    min-height: 4rem;
 }
 
 

@@ -23,6 +23,7 @@ header{
     border-bottom: 0.1rem solid black;
     height: 10%;
     width: 100%;
+    min-height: 4rem;
 }
 .seta{
     width: 2rem;
@@ -44,6 +45,7 @@ h1{
 /* início para o main*/
 
 main{
+    height: 80%;
     overflow: scroll;
 }
 
@@ -68,6 +70,7 @@ footer{
     border-top: 00.1rem solid black;
     height: 10%;
     width: 100%;
+    min-height: 4rem;
 }
 
 .imgrodape{

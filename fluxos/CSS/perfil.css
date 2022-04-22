@@ -46,8 +46,7 @@ footer{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin: 0.rem;
-    padding: 0.rem;
+    
 }
 
 
@@ -82,7 +81,7 @@ h1{
 
 
 .botao{
-    text-decoration-style: none;
+    text-decoration: none;
     border: 00.1rem solid black;
     margin: 1rem 0rem;
     padding: 0.5rem;

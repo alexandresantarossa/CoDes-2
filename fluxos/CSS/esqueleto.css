@@ -1,3 +1,5 @@
+
+/* molde para o cabeçalho*/
 html{
     font-size: 1rem;
     height: 100%;
@@ -37,6 +39,13 @@ h1{
     height: 2.5rem;
     margin-right: 1.5rem;
 }
+/* fim do molde para o cabeçalho*/
+
+/* início para o main*/
+
+main{
+    overflow: scroll;
+}
 
 
 
@@ -51,12 +60,7 @@ h1{
 
 
 
-
-
-
-
-
-
+/* molde para o rodapé*/
 footer{
     display: flex;
     flex-direction: column;
@@ -81,6 +85,6 @@ footer{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin: 0.rem;
-    padding: 0.rem;
+    
 }
+/* fim do molde para o rodapé*/

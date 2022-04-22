@@ -52,6 +52,7 @@ main{
     align-items: center;
     height: 80%;
     width: 100%;
+    overflow: scroll;
 
 }
 
@@ -129,6 +130,5 @@ footer{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin: 0.rem;
-    padding: 0.rem;
+    
 }

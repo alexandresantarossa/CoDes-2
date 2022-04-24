@@ -2,66 +2,81 @@
 <html lang="pt-BR">
     <head>
         <title>DISTRIPIDA</title>
-        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
         <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/novatarefa.css">
     </head>
     <body>
         <header>
-
-            <a href="inicio.html">
-                VOLTAR
+            <a class="aesquerda" href="">
+                <img class="seta" src="../IMG/setaesquerda.png" alt="Seta" >
             </a>
-
             <h1>
                 DISTRIPIDA
             </h1>
-
-            <a href="perfil.html">
-                Perfil
+            <a class="adireita" href="../HTML/perfil.html">
+                <img class="perfil" src="../IMG/perfil.jpeg" alt="foto de perfil">
             </a>
-            
-
-            <h2>
-                <a>
-                    Nome do Evento
-                </a>
-            </h2>
         </header>
         <main>
-            <p>
-                - Horário:
-            </p>
-            <a>
-                Início: <br />
-            </a>
-            <a>
-                Final: <br /><br />
-            </a>
-            <a>
-                Repetir <br /><br />
-            </a>
-            <a href="inicio.html">
-                Cancelar
-            </a>
-            <a href="inicio.html">
+            <input class="titulo" type="text" placeholder="Título...">
+            <textarea>Descrição...</textarea>
+            <ul class="entrada">
+                <li>
+                    <p class="pp">Data:</p>
+                </li>
+                <li>
+                    <input type="date">
+                </li>
+            </ul>
+            <ul class="entrada">
+                <li>
+                    <p class="pp">Horário:</p>
+                </li>
+                <li>
+                    <input type="time">
+                </li>
+            </ul>
+            <ul class="check">
+                <li>
+                    <input type="checkbox">
+                </li>
+                <li>
+                    <p class="pp">Repetir semanalmente</p>
+                </li>
+            </ul>
+            <a class="botaosalvar" href="inicio.html">
                 Salvar
             </a>
         </main>
         <footer>
-            <a href="tela_agenda.html">
-                AGENDA
-            </a>
-            <a href="tela_pisicologo.html">
-                PISICOLOGO
-            </a>
-            <a href="tela_nutricao.html">
-                NUTRIÇÃO
-            </a>
-            <a href="tela_academia.html">
-                ACADEMIA
-            </a>
-        </footer>    
+            <ul class="rp">
+                <li>
+                    <a class="rodape" href="../HTML/tela_agenda.html">
+                        <img class="imgrodape" src="../IMG/agenda.png" alt="agenda">
+                        <p>Agenda</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="rodape" href="../HTML/tela_pisicologo.html">
+                        <img class="imgrodape" src="../IMG/cerebro.png" alt="cerébro">
+                        <p>Mental</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="rodape" href="../HTML/tela_nutricao.html">
+                        <img class="imgrodape" src="../IMG/macan.png" alt="maçã">
+                        <p>Nutrição</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="rodape" href="../HTML/tela_academia.html">
+                        <img class="imgrodape" src="../IMG/acad.png" alt="exercício físico">
+                        <p>Físico</p>
+                    </a>
+                </li>
+            </ul>
+        </footer>
     </body>
-    
 </html>

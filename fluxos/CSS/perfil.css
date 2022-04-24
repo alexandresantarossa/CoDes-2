@@ -85,7 +85,7 @@ h1{
 .botao{
     text-decoration: none;
     border: 00.1rem solid black;
-    margin: 1rem 0rem;
+    margin: 1rem 2rem;
     padding: 0.5rem;
     font-size: 1.2rem;
 }
@@ -106,3 +106,8 @@ mark{
     margin: 2rem 0rem;
 }
 
+.linha {
+    display: flex;
+    flex-direction: row;
+    
+}

@@ -47,35 +47,87 @@ h1{
 main{
     height: 80%;
     overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixa1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.caixa2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.p1{
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.p2{
+    margin: 0rem 1rem;
 }
 
 h2{
-    font-size: 1.6rem;
-    padding: 2rem;
-
-}
-
-li{
-    padding: 2rem;
-}
-
-.foto{
-    width: 5rem;
-    height: 5rem;
+    font-size: 1.7rem;
+    text-align: center;
+    margin: 2rem 0rem;
 }
 
 .botao{
-    text-decoration: none;
-    border: 00.1rem solid black;
-    margin: 1rem 1rem;
+    margin: 2rem 1rem;
     padding: 0.5rem;
-    font-size: 1.2rem;
+    border: 0.1rem solid black;
 }
 
+.foto{
+    width: 3rem;
+    height: 3rem;
+}
 
-.linha {
+.case{
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
+    border: 00.1rem solid black;
+    margin: 1.5rem;
+}
+
+.idd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0.5rem 1rem 0.5rem 0.5rem;
+}
+
+.preenche{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5rem;
+    border-left: 0.1rem solid black;
+}
+
+.preenche2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.texto{
+    margin: 0.2rem;
+}
+
+.price {
+    margin: 0.2rem;
 }
 
 /* molde para o rodapé*/

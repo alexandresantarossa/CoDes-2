@@ -48,18 +48,8 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: scroll;
     height: 80%;
     width: 100%;
-}
-
-.dados{
-    margin: 10rem 0rem;
-}
-
-mark{
-    font-weight: bold;
-    background-color: rgba(0,0,0,0);
 }
 
 
@@ -70,6 +60,20 @@ mark{
     padding: 0.5rem;
     font-size: 1.2rem;
 }
+
+.imgperfil{
+    width: 15rem;
+    height: 15rem;
+    margin: 2rem 0rem;
+    border-radius: 10rem;
+}
+
+
+
+
+
+
+
 
 
 

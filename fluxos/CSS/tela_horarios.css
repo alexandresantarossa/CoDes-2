@@ -48,28 +48,24 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: scroll;
     height: 80%;
     width: 100%;
 }
-
-.dados{
-    margin: 10rem 0rem;
-}
-
 mark{
     font-weight: bold;
     background-color: rgba(0,0,0,0);
 }
 
-
-.botao{
-    text-decoration: none;
-    border: 00.1rem solid black;
-    margin: 1rem 2rem;
-    padding: 0.5rem;
-    font-size: 1.2rem;
+.dados{
+    margin: 1.2rem;
+    font-size: 1.3rem;
 }
+
+
+
+
+
+
 
 
 

@@ -60,29 +60,23 @@ li{
 }
 
 .foto{
-    width: 2.5rem;
-    height: 2.5rem;
-}
-ul{
-    flex-direction: column;
+    width: 5rem;
+    height: 5rem;
 }
 
 .botao{
-    border: 0.1rem solid black;
-    padding: 0rem;
-    justify-content: center;
-
+    text-decoration: none;
+    border: 00.1rem solid black;
+    margin: 1rem 1rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
 }
 
 
-
-
-
-
-
-
-
-
+.linha {
+    display: flex;
+    flex-direction: row; 
+}
 
 /* molde para o rodapé*/
 footer{

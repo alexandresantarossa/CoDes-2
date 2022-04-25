@@ -50,13 +50,14 @@ main{
     align-items: center;
     height: 80%;
     width: 100%;
+    overflow: scroll;
 }
 
 
 .botao{
     text-decoration: none;
     border: 00.1rem solid black;
-    margin: 1rem 2rem;
+    margin: 2rem;
     padding: 0.5rem;
     font-size: 1.2rem;
 }

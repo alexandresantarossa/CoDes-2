@@ -5,63 +5,95 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/filtro.css">
     </head>
     <body>
         <header>
-            <a href="inicio.html">
-                VOLTAR
+            <a class="aesquerda" href="../HTML/inicio.html">
+                <img class="seta" src="../IMG/setaesquerda.png" alt="Seta" >
             </a>
-
             <h1>
                 DISTRIPIDA
             </h1>
-
-            <a href="perfil.html">
-                Perfil
+            <a class="adireita" href="../HTML/perfil.html">
+                <img class="perfil" src="../IMG/perfil.jpeg" alt="foto de perfil">
             </a>
-            
         </header>
 
-            <h1>
-                filtro
-            </h1>
-
-        </header>
         <main>
+            <h2>
+                Filtros:
+            </h2>
+    
             <ul>
                 <li>
-                    <h2>
-                        PREÇO
-                    </h2>
-                </li>
-                <li>
-                    <h2>
-                        TIPO DE ARMAZENAMENTO
-                    </h2>
-                </li>
-                <li>
-                    <h2>
-                        FREQUÊNCIA
+                    <h2 class = "central">
+                        PREÇO MÁXIMO
                     </h2>
 
                 </li>
+                <li>
+                    <input type="number" min="50" max="1000">
+
+                </li>
+
+            </ul>
+            <ul>
+                <li class = "central">
+                    <h2>
+                        TIPO DE ATENDIMENTO:
+                    </h2>
+                </li>
+                <li class = linha>
+                    <h3>Presencial</h3>
+                    <h3>Online</h3>
+                    <h3>Híbrido</h3>
+                </li> 
+
+            </ul>
+            <ul>
+                <li class = "central">
+                    <h2>
+                        FREQUÊNCIA:
+                    </h2>
+
+                </li>
+                <li class = linha>
+                    <h3>Uníca</h3>
+                    <h3>Semanal</h3>
+                    <h3>Mensal</h3>
+                </li> 
             </ul>
            
         </main>
         <footer>
-                <a href="tela_agenda.html">
-                    AGENDA
-                </a>
-                <a href="tela_pisicologo.html">
-                    PISICOLOGO
-                </a>
-                <a href="tela_nutricao.html">
-                    NUTRIÇÃO
-                </a>
-                <a href="tela_academia.html">
-                    ACADEMIA
-                </a>
-            </footer>
+            <ul class="rp">
+                <li>
+                    <a class="rodape" href="../HTML/tela_agenda.html">
+                        <img class="imgrodape" src="../IMG/agenda.png" alt="agenda">
+                        <p>Agenda</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="rodape" href="../HTML/tela_pisicologo.html">
+                        <img class="imgrodape" src="../IMG/cerebro.png" alt="cerébro">
+                        <p>Mental</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="rodape" href="../HTML/tela_nutricao.html">
+                        <img class="imgrodape" src="../IMG/macan.png" alt="maçã">
+                        <p>Nutrição</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="rodape" href="../HTML/tela_academia.html">
+                        <img class="imgrodape" src="../IMG/acad.png" alt="exercício físico">
+                        <p>Físico</p>
+                    </a>
+                </li>
+            </ul>
+        </footer>
 
     </body>
     

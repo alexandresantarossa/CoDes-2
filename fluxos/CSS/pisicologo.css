@@ -49,22 +49,29 @@ main{
     overflow: scroll;
 }
 
-.linha {
-    display: flex;
-    flex-direction: row;
-    
+h2{
+    font-size: 1.6rem;
+    padding: 2rem;
+
+}
+
+li{
+    padding: 2rem;
 }
 
 .foto{
-    width: 0.2rem;
-    height: 0.2rem;
-    margin: 1rem 0rem;
-    border-radius: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+ul{
+    flex-direction: column;
 }
 
-.discrissao{
-    border: 5rem black;  
-    padding: 2rem;
+.botao{
+    border: 0.1rem solid black;
+    padding: 0rem;
+    justify-content: center;
+
 }
 
 

@@ -45,94 +45,107 @@ h1{
 /* início para o main*/
 
 main{
-    height: 80%;
     overflow: scroll;
+    height: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.caixa1{
+.passador{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-}
-
-.caixa2{
-    display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
+    margin: 0.5rem 0rem;
 }
 
-.p1{
-    font-size: 1.3rem;
-    text-align: center;
-    margin: 1rem;
-}
-
-.p2{
+.seta{
+    width: 2rem;
+    height: 2rem;
     margin: 0rem 1rem;
 }
 
 h2{
-    font-size: 1.7rem;
-    text-align: center;
-    margin: 2rem 0rem;
+    margin: 1rem;
+    font-size: 1.4rem;
 }
 
-.botao{
-    margin: 2rem 1rem;
-    padding: 0.5rem;
-    border: 0.1rem solid black;
+.adiciona{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    border-top: 0.1rem dashed gray;
+    border-bottom: 0.1rem dashed gray;
 }
 
-.foto{
-    width: 3rem;
-    height: 3rem;
+.mais{
+    width: 2rem;
+    height: 2rem;
 }
 
 .case{
     display: flex;
     flex-direction: row;
-    border: 00.1rem solid black;
-    margin: 1.5rem;
+    margin: 1rem;
+    border: 0.1rem solid black;
 }
 
 .idd{
+    margin: 1rem;
+}
+
+.idd2{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-around;
-    margin: 0.5rem 1rem 0.5rem 0.5rem;
+    align-items: center;
 }
 
 .preenche{
+    padding: 0rem 1rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-around;
-    padding: 0.5rem;
-    border-left: 0.1rem solid black;
+    align-items: center;
+    height: 100%;
 }
 
-.preenche2{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.dia{
+    font-size: 1.5rem;
+    margin: 00.3rem;
+    text-align: center;
+}
 
+.mes{
+    font-size: 0.8rem;
+    margin: 0.3rem;
+}
+
+.bor{
+    border-right: 0.1rem solid black;
 }
 
 .texto{
-    margin: 0.2rem;
+    margin: 0.3rem;
+    font-size: 1.2rem;
 }
 
-.price {
-    margin: 0.2rem;
+.horario{
+    margin: 0.3rem;
+    font-size: 0.9rem;
+    font-weight: bold;
 }
 
-.nomes{
-    text-align: center;
-}
+
+
+
+
+
+
+
 
 /* molde para o rodapé*/
 footer{

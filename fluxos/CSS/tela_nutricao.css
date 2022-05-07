@@ -25,6 +25,7 @@ header{
     height: 10%;
     width: 100%;
     min-height: 4rem;
+    background-color: #7db4f2;
 }
 .seta{
     width: 2rem;
@@ -52,6 +53,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    background-color: #cce4ff;
 }
 
 h2{
@@ -67,9 +69,13 @@ h2{
     border-radius: 1rem;
     font-size: 1.3rem;
     text-align: center;
+    background-color: #d8ead9;
 }
 
-
+a{
+    text-decoration: none;
+    color: black;
+}
 
 
 
@@ -91,6 +97,7 @@ footer{
     height: 10%;
     width: 100%;
     min-height: 4rem;
+    background-color: #7db4f2;
 }
 
 .imgrodape{

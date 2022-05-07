@@ -25,6 +25,7 @@ header{
     height: 10%;
     width: 100%;
     min-height: 4rem;
+    background-color: #7db4f2;
 }
 .seta{
     width: 2rem;
@@ -51,6 +52,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #cce4ff;
 }
 
 h3{
@@ -62,6 +64,11 @@ h3{
     width: 4rem;
     height: 4rem;
     margin: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 .passador{
@@ -101,6 +108,7 @@ footer{
     height: 10%;
     width: 100%;
     min-height: 4rem;
+    background-color: #7db4f2;
 }
 
 .imgrodape{

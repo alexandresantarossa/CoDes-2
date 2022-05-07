@@ -25,6 +25,7 @@ header{
     height: 10%;
     width: 100%;
     min-height: 4rem;
+    background-color: #7db4f2;
 }
 .seta{
     width: 2rem;
@@ -51,6 +52,7 @@ main{
     align-items: center;
     height: 80%;
     width: 100%;
+    background-color: #cce4ff;
 }
 mark{
     font-weight: bold;
@@ -63,7 +65,10 @@ mark{
 }
 
 
-
+a{
+    text-decoration: none;
+    color: black;
+}
 
 
 
@@ -80,6 +85,7 @@ footer{
     height: 10%;
     width: 100%;
     min-height: 4rem;
+    background-color: #7db4f2;
 }
 
 .imgrodape{

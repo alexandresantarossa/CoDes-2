@@ -25,6 +25,7 @@ header{
     height: 10%;
     width: 100%;
     min-height: 4rem;
+    background-color: #7db4f2;
 }
 .seta{
     width: 2rem;
@@ -52,10 +53,16 @@ main{
     overflow: scroll;
     height: 80%;
     width: 100%;
+    background-color: #cce4ff;
 }
 
 .dados{
     margin: 10rem 0rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 mark{
@@ -84,6 +91,7 @@ footer{
     height: 10%;
     width: 100%;
     min-height: 4rem;
+    background-color: #7db4f2;
 }
 
 .imgrodape{

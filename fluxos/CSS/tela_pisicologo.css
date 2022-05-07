@@ -25,6 +25,7 @@ header{
     height: 10%;
     width: 100%;
     min-height: 4rem;
+    background-color: #7db4f2;
 }
 .seta{
     width: 2rem;
@@ -51,6 +52,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #cce4ff;
 }
 
 .caixa1{
@@ -97,6 +99,7 @@ h2{
     flex-direction: row;
     border: 00.1rem solid black;
     margin: 1.5rem;
+    background-color: #d8ead9;
 }
 
 .idd{
@@ -125,6 +128,7 @@ h2{
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 
@@ -150,6 +154,7 @@ footer{
     height: 10%;
     width: 100%;
     min-height: 4rem;
+    background-color: #7db4f2;
 }
 
 .imgrodape{

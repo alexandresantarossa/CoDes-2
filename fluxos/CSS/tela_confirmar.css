@@ -60,6 +60,14 @@ main{
     margin: 10rem 0rem;
 }
 
+h2{
+    font-size: 1.4rem;
+    margin: 1rem;
+    padding: 1rem;
+
+
+}
+
 a{
     text-decoration: none;
     color: black;
@@ -67,19 +75,17 @@ a{
 
 mark{
     font-weight: bold;
-    background-color: rgba(0,0,0,0);
+    background-color: #d8ead9;
 }
 
 
 .botao{
     text-decoration: none;
     border: 00.1rem solid black;
-    margin: 1rem 2rem;
+    margin: 1rem;
     padding: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
-
-
 
 
 /* molde para o rodapé*/

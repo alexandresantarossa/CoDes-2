@@ -84,8 +84,8 @@ h2{
     justify-content: center;
     align-items: center;
     margin-bottom: 0.5rem;
-    border-top: 0.1rem dashed gray;
-    border-bottom: 0.1rem dashed gray;
+    border-top: 0.1rem dashed #5585bb;
+    border-bottom: 0.1rem dashed #5585bb;
 }
 
 .mais{

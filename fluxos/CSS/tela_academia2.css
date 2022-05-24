@@ -77,8 +77,9 @@ h2{
 .botaoeditar{
     padding: 0.5rem;
     margin: 1rem;
-    border: 0.1rem solid black;
+    border: 0.1rem solid #fb415a;
     font-size: 1.2rem;
+    border-radius: 1rem;
 }
 
 .treino{

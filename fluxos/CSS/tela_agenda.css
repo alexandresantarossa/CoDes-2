@@ -100,6 +100,7 @@ h2{
     margin: 1rem;
     border: 0.1rem solid black;
     background-color: #d8ead9;
+    border-radius: 1rem;
 }
 
 .idd{
@@ -139,7 +140,8 @@ h2{
 
 .texto{
     margin: 0.3rem;
-    font-size: 1.2rem
+    font-size: 1.1rem;
+    text-align: center;
     
 }
 

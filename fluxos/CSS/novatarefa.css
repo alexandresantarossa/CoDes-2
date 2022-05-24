@@ -88,8 +88,9 @@ textarea{
 .botaosalvar{
     margin: 1rem;
     padding: 0.5rem;
-    border: 0.1rem solid black;
-    font-size: 1.2rem;
+    border: 0.1rem solid #fb415a;
+    font-size: 1rem;
+    border-radius: 1rem;
 }
 
 .pp{

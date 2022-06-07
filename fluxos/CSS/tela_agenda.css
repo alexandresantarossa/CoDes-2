@@ -79,15 +79,6 @@ h2{
     font-size: 1.4rem;
 }
 
-.adiciona{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 0.5rem;
-    border-top: 0.1rem dashed gray;
-    border-bottom: 0.1rem dashed gray;
-}
 
 .mais{
     width: 2rem;

@@ -75,12 +75,12 @@ h2{
 
 .adiciona{
     display: flex;
+    border-radius: 10rem;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 0.5rem;
-    border-top: 0.1rem dashed #5585bb;
-    border-bottom: 0.1rem dashed #5585bb;
+    margin-bottom: 1rem;
+    background-color: white;
 }
 
 .mais{

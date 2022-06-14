@@ -1,0 +1,123 @@
+
+/* molde para o cabeçalho*/
+html{
+    font-size: 1rem;
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.1rem solid black;
+    height: 10%;
+    width: 100%;
+    min-height: 4rem;
+    background-color: #7db4f2;
+}
+.seta{
+    width: 2rem;
+    height: 2rem;
+    margin: 0rem 1rem;
+}
+
+h1{
+    font-size: 2rem;
+}
+.perfil{
+    border-radius: 10rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1.5rem;
+}
+/* fim do molde para o cabeçalho*/
+
+/* início para o main*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    overflow: scroll;
+    background-color: #cce4ff;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    font-size: 1.5rem;
+    margin: 1.5rem 0rem;
+}
+
+.txt{
+    font-family: 'Gelasio', serif;
+    margin: 0.5rem;
+}
+
+.quadro{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 1rem;
+    margin: 5rem 0;
+    background-color: #d8ead9;
+    border: 0.01rem solid black;
+    border-radius: 1rem;
+}
+
+.exce{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+
+/* molde para o rodapé*/
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 00.1rem solid black;
+    height: 10%;
+    width: 100%;
+    min-height: 4rem;
+    background-color: #7db4f2;
+}
+
+.imgrodape{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.rp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+/* fim do molde para o rodapé*/

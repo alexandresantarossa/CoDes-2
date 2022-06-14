@@ -29,8 +29,8 @@ header{
 }
 .seta{
     width: 2rem;
-    height: 1.2rem;
-    margin-left: 1.5rem;
+    height: 2rem;
+    margin: 0rem 1rem;
 }
 
 h1{
@@ -67,11 +67,6 @@ a{
     color: black;
 }
 
-.seta{
-    width: 2rem;
-    height: 2rem;
-    margin: 0rem 1rem;
-}
 
 h2{
     margin: 1rem;
@@ -93,37 +88,54 @@ h2{
     height: 2rem;
 }
 
-.tarefas{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-.tarefas2{
+.case{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    margin: 0.5rem;
+    margin: 1rem;
     border: 0.1rem solid black;
     background-color: #d8ead9;
     border-radius: 1rem;
 }
 
-.horarios{
-    padding: 1rem;
+.idd{
+    margin: 1rem;
+}
+
+.idd2{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
+}
+
+.preenche{
+    padding: 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.hor{
+    font-size: 1.5rem;
+    margin: 00.3rem;
+    text-align: center;
+}
+
+
+.bor{
     border-right: 0.1rem solid black;
 }
 
-.descricao{
-    padding: 1rem;
+.texto{
+    margin: 0.3rem;
+    font-size: 1.3rem;
+    text-align: center;
+    
 }
 
-.tit{
-    font-size: 1.4rem;
-}
 
 
 

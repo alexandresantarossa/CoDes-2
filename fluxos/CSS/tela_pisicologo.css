@@ -29,8 +29,8 @@ header{
 }
 .seta{
     width: 2rem;
-    height: 1.2rem;
-    margin-left: 1.5rem;
+    height: 2rem;
+    margin: 0rem 1rem;
 }
 
 h1{
@@ -85,7 +85,7 @@ h2{
 
 .botao{
     margin: 2rem 1rem;
-    padding: 0.5rem;
+    padding: 0.8rem;
     border: 0.1rem solid #fb415a;
     border-radius: 1rem;
     background-color: white;
@@ -150,6 +150,19 @@ a{
 .nomes{
     text-align: center;
 }
+
+
+.hidden {
+    display: none;
+  }
+  
+
+
+
+
+
+
+
 
 /* molde para o rodapé*/
 footer{

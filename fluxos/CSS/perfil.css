@@ -72,16 +72,14 @@ h1{
 
 .aesquerda{
     position: absolute;
-    top: 3.5%;
     left: 3.5%;
 
 }
 
 .seta{
     width: 2rem;
-    height: 1.2rem;
+    height: 2rem;
 }
-
 
 .imgrodape{
     width: 1.5rem;
@@ -102,7 +100,7 @@ h1{
 .imgperfil{
     width: 15rem;
     height: 15rem;
-    margin: 2rem 0rem;
+    margin: 2rem 0 0 0;
     border-radius: 10rem;
 }
 
@@ -118,5 +116,10 @@ mark{
 .linha {
     display: flex;
     flex-direction: row;
+    margin: 1rem;
     
+}
+
+.desc{
+    margin: 0.2rem;
 }

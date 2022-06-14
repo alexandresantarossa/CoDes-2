@@ -29,8 +29,8 @@ header{
 }
 .seta{
     width: 2rem;
-    height: 1.2rem;
-    margin-left: 1.5rem;
+    height: 2rem;
+    margin: 0rem 1rem;
 }
 
 h1{
@@ -61,36 +61,54 @@ a{
     color: black;
 }
 
-.b{
-    border: 00.1rem solid black;
-    margin: 2rem;
-    padding: 0.5rem;
-    font-size: 1.2rem;
-}
-
 .imgperfil{
     width: 15rem;
     height: 15rem;
-    margin: 2rem 0rem;
+    margin: 1rem 0rem;
     border-radius: 10rem;
 }
 
-.f{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    
-}
 
-.ff{
+
+.txt{
     font-family: 'Gelasio', serif;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
 h2{
     margin: 1rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.quadro{
+    display: flex;
+    flex-direction: column;
     padding: 1rem;
+    margin: 1rem;
+    background-color: #d8ead9;
+    border: 0.01rem solid black;
+    border-radius: 1rem;
+}
+
+.valor{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    margin: 1rem;
+    border: 0.1rem solid #5585bb;
+    background-color: #d8ead9;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+}
+
+button{
+    font-size: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    border: 0.1rem solid #fb415a;
 }
 
 

@@ -29,8 +29,8 @@ header{
 }
 .seta{
     width: 2rem;
-    height: 1.2rem;
-    margin-left: 1.5rem;
+    height: 2rem;
+    margin: 0rem 1rem;
 }
 
 h1{
@@ -72,6 +72,10 @@ h2{
     margin: 1rem;
     font-size: 1.5rem;
     list-style: disc;
+    border: 0.01rem solid black;
+    background-color: #d8ead9;
+    border-radius: 1rem;
+    padding: 2rem;
 }
 
 .botaoeditar{

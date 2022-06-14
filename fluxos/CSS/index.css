@@ -3,7 +3,7 @@ html{
     height: 100%;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
-    background-color: #cce4ff;
+    background-color: #7db4f2;
 }
 h1{
     font-size: 3rem;
@@ -54,6 +54,7 @@ footer{
     height: 10%;
     align-items: center;
     font-size: 1rem;
+    background-color: #cce4ff;
 }
 
 
@@ -64,7 +65,6 @@ a{
     justify-content: center;
     align-items: center;
     margin: 0.5rem;
-    padding: 0.5rem;
 
 }
 
@@ -73,8 +73,13 @@ input{
     margin: 1rem;
     padding: 1rem;
     font-size: 1rem;
+    border-radius: 1rem;
 }
 
 .botao{
-    border: 00.1rem solid black;
+    margin: 2rem 1rem;
+    border: 0.1rem solid #fb415a;
+    border-radius: 1rem;
+    background-color: white;
+    font-size: 1.2rem;
 }

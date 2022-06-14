@@ -29,8 +29,8 @@ header{
 }
 .seta{
     width: 2rem;
-    height: 1.2rem;
-    margin-left: 1.5rem;
+    height: 2rem;
+    margin: 0rem 1rem;
 }
 
 h1{
@@ -60,8 +60,32 @@ mark{
 }
 
 .dados{
-    margin: 1.2rem;
-    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0.5rem;
+}
+
+.gradehoraria{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.dia{
+    font-size: 1.2rem;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.hora{
+    font-size: 1rem;
+    margin: 0.75rem 0.25rem;
+    padding: 0.25rem;
+    border-radius: 1rem;
+    border: 0.01rem solid #fb415a;
+    background-color: white;
+
 }
 
 

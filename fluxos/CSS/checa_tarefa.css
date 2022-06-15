@@ -47,12 +47,12 @@ h1{
 /* início para o main*/
 
 main{
-    height: 80%;
-    overflow: scroll;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    height: 80%;
+    width: 100%;
+    overflow: scroll;
     background-color: #cce4ff;
 }
 
@@ -62,41 +62,32 @@ a{
 }
 
 h2{
-    font-size: 1.7rem;
-    margin: 1rem;
+    font-size: 1.5rem;
+    margin: 1.5rem 0rem;
 }
 
-.listatreinos{
+.txt{
+    font-family: 'Gelasio', serif;
+    margin: 0.5rem;
+}
+
+.quadro{
     display: flex;
     flex-direction: column;
-    margin: 1rem;
-    font-size: 1.5rem;
-    border: 0.01rem solid black;
+    align-items: center;
+    width: 80%;
+    padding: 1rem;
+    margin: 5rem 0;
     background-color: #d8ead9;
+    border: 0.01rem solid black;
     border-radius: 1rem;
-    padding: 2rem;
 }
 
-.botaoeditar{
-    padding: 0.5rem;
-    margin: 1rem;
-    border: 0.1rem solid #fb415a;
-    font-size: 1.2rem;
-    border-radius: 1rem;
-    background-color: white;
+.exce{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
-
-.treino{
-    margin: 0.4rem;
-}
-
-
-
-
-
-
-
-
 
 
 

@@ -94,6 +94,10 @@ h2{
     border-radius: 1rem;
 }
 
+.larg{
+    width: 94%;
+}
+
 .idd{
     margin: 1rem;
 }
@@ -109,7 +113,7 @@ h2{
     padding: 0rem 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     height: 100%;
 }

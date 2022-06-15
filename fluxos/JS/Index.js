@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
 
     let tecla = document.querySelector('.botao')
-    let quadro = document.querySelector('escrita')
+    let quadro = document.querySelector('.escrita')
 
     function um(){
         

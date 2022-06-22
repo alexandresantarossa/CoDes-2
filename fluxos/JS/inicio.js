@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
         localStorage.setItem('descricao_NT', desc.innerHTML)
     })
 
-    butt0.addEventListener('click', function(){
+    butt3.addEventListener('click', function(){
 
         horai = butt3.querySelector('.horai')
         horaf = butt3.querySelector('.horaf')
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
         localStorage.setItem('descricao_NT', desc.innerHTML)
     })
 
-
+    localStorage.setItem('checa', 'inicio')
 
 
 

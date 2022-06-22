@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', function() {
     horaf.innerHTML = localStorage.getItem('horaf_NT')
     desc.innerHTML = localStorage.getItem('descricao_NT')
 
+    localStorage.setItem('checa', 'agenda2')
+
 
 
 })
